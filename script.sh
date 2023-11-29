@@ -6,7 +6,6 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 apt-cache policy docker-ce
 sudo apt install docker-ce -y
-sudo docker run hello-world
 git clone https://github.com/AurelieVidal/DevOps2.git
 cd DevOps2
 docker compose up -d
