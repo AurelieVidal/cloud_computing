@@ -9,4 +9,4 @@ sudo apt install docker-ce -y
 sudo docker run hello-world
 git clone https://github.com/AurelieVidal/DevOps2.git
 cd DevOps2
-docker compose up
+docker compose up -d
