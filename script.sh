@@ -6,6 +6,6 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 apt-cache policy docker-ce
 sudo apt install docker-ce -y
-git clone https://github.com/AurelieVidal/DevOps2.git
-cd DevOps2
+git clone https://github.com/devops-winter21/hello-2048.git
+cd hello-2048
 docker compose up -d
